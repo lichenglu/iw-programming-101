@@ -1,7 +1,8 @@
-const warrior = new Warrior({
-  name = "Zelda"
-})
-warrior.attack()
-warrior.attack()
-warrior.attack()
-warrior.move(new Position(-10, 0, -10))
+const lightBulb = new LightBulb()
+lightBulb.on()
+delay({ miliseconds = 1000 })
+lightBulb.off()
+delay({ miliseconds = 1000 })
+lightBulb.on()
+delay({ miliseconds = 1000 })
+lightBulb.off()
