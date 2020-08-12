@@ -1,4 +1,9 @@
 const lightBulb = new LightBulb()
+// Make light bulb blink!
+lightBulb.on()
+delay({ miliseconds = 1000 })
+lightBulb.off()
+delay({ miliseconds = 1000 })
 lightBulb.on()
 delay({ miliseconds = 1000 })
 lightBulb.off()
